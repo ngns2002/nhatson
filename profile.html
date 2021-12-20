@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Thông Tin Cá Nhân - Ngô Gia Nhất Sơn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.2.0/dist/sweetalert2.min.css"> 
+</head>
+<body>
+<div class="container">
+    <div class="main-body">
+      
+<center>
+<script type="text/javascript">
+farbbibliothek = new Array();
+farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100");
+farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00");
+farbbibliothek[2] = new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00");
+farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040");
+farbbibliothek[4] = new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA0000","#990000","#880000","#770000","#660000","#550000","#440000","#330000","#220000","#110000","#000000","#110000","#220000","#330000","#440000","#550000","#660000","#770000","#880000","#990000","#AA0000","#BB0000","#CC0000","#DD0000","#EE0000");
+farbbibliothek[5] = new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF");
+farbbibliothek[6] = new Array("#0000FF","#FFFF00");
+farben = farbbibliothek[4];
+function farbschrift()
+{
+for(var i=0 ; i<Buchstabe.length; i++)
+{
+document.all["a"+i].style.color=farben[i];
+}
+farbverlauf();
+}
+function string2array(text)
+{
+Buchstabe = new Array();
+while(farben.length<text.length)
+{
+farben = farben.concat(farben);
+}
+k=0;
+while(k<=text.length)
+{
+Buchstabe[k] = text.charAt(k);
+k++;
+}
+}
+function divserzeugen()
+{
+for(var i=0 ; i<Buchstabe.length; i++)
+{
+document.write("<span id='a"+i+"' class='a"+i+"'>"+Buchstabe[i] + "<\/span>");
+}
+farbschrift();
+}
+var a=1;
+function farbverlauf()
+{
+for(var i=0 ; i<farben.length; i++)
+{
+farben[i-1]=farben[i];
+}
+farben[farben.length-1]=farben[-1];
+
+setTimeout("farbschrift()",30);
+}
+//
+var farbsatz=1;
+function farbtauscher()
+{
+farben = farbbibliothek[farbsatz];
+while(farben.length<text.length)
+{
+farben = farben.concat(farben);
+}
+farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001));
+}
+setInterval("farbtauscher()",5000);
+
+text= "Thông Tin Cá Nhân - Ngô Gia Nhất Sơn!"; //h
+string2array(text);
+divserzeugen();
+//document.write(text);
+</script></center>
+<br />
+          <!-- /Breadcrumb -->
+    
+          <div class="row gutters-sm">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="prof/sonpro.jpg" alt="Admin" class="rounded-circle" width="220" height="220">
+
+                    <div class="mt-3">
+                      <h4> Ngô Gia Nhất Sơn!</h4> 
+                      <p class="text-secondary mb-1">Developer - Designer</p>
+                      <p class="text-muted font-size-sm">Phúc Chu - Dịnh Hóa ,TP.Thái Nguyên</p>
+                      <a href="https://www.facebook.com/boss.2k14"><button class="btn btn-primary">Follow</button></a>
+                      <a href="https://m.me/boss.2k14"><button class="btn btn-outline-primary">Message</button></a>
+                      &nbsp;
+                      &nbsp;
+                      &nbsp;
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mt-3">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe mr-2 icon-inline"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>Website</h6>
+                    <a href="http://www.nhatson.tk/"><span class="text-secondary">http://www.nhatson.tk/</span></a>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github mr-2 icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>Github</h6>
+                    <a href="https://github.com/ngns2002"><span class="text-secondary">ngns2002</span></a>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter mr-2 icon-inline text-info"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>Twitter</h6>
+                    <span class="text-secondary">Đ Có</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram mr-2 icon-inline text-danger"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>Instagram</h6>
+                    <a href="https://www.instagram.com/caubar107/"><span class="text-secondary">caubar107</span></a>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook mr-2 icon-inline text-primary"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Facebook</h6>
+                    <a href="https://www.facebook.com/boss.2k14"><span class="text-secondary"> Ngô Gia Nhất Sơn!</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Họ Và Tên</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      Ngô Gia Nhất Sơn!
+                      
+                      <button class="snip1457"onclick="myFunction()" data-clipboard-text="">
+                          Copy
+                      </button>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Email</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      son.pc01@gmail.com
+                      <button class="snip1457" onclick="myFunction()">coppy</button>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">SDT</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      +84326225379
+                      
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">NGÂN HÀNG</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      383868683 - MB BANK
+                      <button class="snip1457" onclick="myFunction()">coppy</button>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Dịa Chỉ</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      Phúc Chu - Dịnh Hóa ,TP.Thái Nguyên
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <template id='my-template'>
+                        <swal-title>Ê! Không Được Vô Đây Nha 😒</swal-title>
+                      </template>
+                      
+                      <button class='show-example-btn' data-swal-template='#my-template'>
+                        <p>Edit</p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="row gutters-sm">
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">front-end</i></h6>
+                      <small>HTML</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>CSS</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 82%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>SASS/SCSS</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 29%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>javascript</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 35%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>bootstrap</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 16%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" background-color:#ff00cd></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">back-end</i></h6>
+                      <small>Ruby</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 1%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>Java</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 1%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>PHP & Mysql</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%"  aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>python</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 5%"   background-color: deeppink aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>.NET</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 5%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+           <!-- where our canvas goes -->
+           <div class="snowflakes" aria-hidden="true">
+            <div class="snowflake">😂</div>
+            <div class="snowflake">🖤</div>
+            <div class="snowflake">💫</div>
+            <div class="snowflake">🤍</div>
+            <div class="snowflake">💕</div>
+            <div class="snowflake">💙</div>
+            <div class="snowflake">🤎</div>
+            <div class="snowflake">💘</div>
+            <div class="snowflake">💗</div>
+            <div class="snowflake">💛</div>
+            <div class="snowflake">💔</div>
+            <div class="snowflake">💚</div>
+          </div>
+
+<style type="text/css">
+
+body{
+  
+    margin-top:20px;
+    color: #1a202c;
+    text-align: left;
+    background-image:url(prof/accc.png);
+}
+.main-body {
+    padding: 15px;
+}
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 15px;
+    
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+  margin-bottom: 1rem!important;
+}
+.bg-gray-300 {
+    background-color: #141414;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.show-example-btn{
+  background-color: #cecece;
+  border-radius: 20px;
+}
+.show-example-btn p{
+  width: 60px;
+  height: 15px;
+  font-size: 20px;
+}
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
+.snip1457 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: #b8b8b8;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+  margin-top:-30px;
+    margin-left:150px;
+  text-transform: uppercase;
+  line-height: 26px;
+  font-weight: 200;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 13px;
+  border-radius: 23px;
+  letter-spacing: 2px;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1457:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.snip1457:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 2px solid #727274;
+  content: '';
+  border-radius: inherit;
+}
+.snip1457:hover,
+.snip1457.hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+.snip1457:hover:before,
+.snip1457.hover:before {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 0.25;
+}
+@-webkit-keyframes snowflakes-fall {
+              0% {top:-10%}
+              100% {top:100%}
+            }
+            @-webkit-keyframes snowflakes-shake {
+              0%,100% {-webkit-transform:translateX(0);transform:translateX(0)}
+              50% {-webkit-transform:translateX(80px);transform:translateX(80px)}
+            }
+            @keyframes snowflakes-fall {
+              0% {top:-10%}
+              100% {top:100%}
+            }
+            @keyframes snowflakes-shake {
+              0%,100%{ transform:translateX(0)}
+              50% {transform:translateX(80px)}
+            }
+            .snowflake {
+              color: #fff;
+              font-size: 1em;
+              font-family: Arial, sans-serif;
+              text-shadow: 0 0 5px #000;
+              position:fixed;
+              top:-10%;
+              z-index:9999;
+              -webkit-user-select:none;
+              -moz-user-select:none;
+              -ms-user-select:none;
+              user-select:none;
+              cursor:default;
+              -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+              -webkit-animation-duration:10s,3s;
+              -webkit-animation-timing-function:linear,ease-in-out;
+              -webkit-animation-iteration-count:infinite,infinite;
+              -webkit-animation-play-state:running,running;
+              animation-name:snowflakes-fall,snowflakes-shake;
+              animation-duration:10s,3s;
+              animation-timing-function:linear,ease-in-out;
+              animation-iteration-count:infinite,infinite;
+              animation-play-state:running,running;
+            }
+            .snowflake:nth-of-type(0){
+              left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s
+            }
+            .snowflake:nth-of-type(1){
+              left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s
+            }
+            .snowflake:nth-of-type(2){
+              left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s
+            }
+            .snowflake:nth-of-type(3){
+              left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s
+            }
+            .snowflake:nth-of-type(4){
+              left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s
+            }
+            .snowflake:nth-of-type(5){
+              left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s
+            }
+            .snowflake:nth-of-type(6){
+              left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s
+            }
+            .snowflake:nth-of-type(7){
+              left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s
+            }
+            .snowflake:nth-of-type(8){
+              left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s
+            }
+            .snowflake:nth-of-type(9){
+              left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s
+            }
+            .snowflake:nth-of-type(10){
+              left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s
+            }
+            .snowflake:nth-of-type(11){
+              left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s
+            }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.2.0/dist/sweetalert2.min.js"></script>
+<script> 
+Swal.fire({
+  title: 'Bạn Có Muốn Vào Không?',
+  text: "Xác Nhận Đã Nha!",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonColor: '#3085d6',
+  cancelButtonColor: '#d33',
+  confirmButtonText: 'Có, Vào Luôn Nè!'
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire(
+      'Thành Công!',
+      'Chào Mừng Bạn Dến Với ProFile Của SON 😘',
+      'success'
+    )
+  }
+}).then((result) => {
+  if (result.isConfirmed) {
+    swalWithBootstrapButtons.fire(
+      'Thành Công!',
+      'welcome to profile NGO GIA NHAT SON ',
+      'success'
+    )
+  } else if (
+    /* Read more about handling dismissals below */
+    result.dismiss === Swal.DismissReason.cancel
+  ) {
+    swalWithBootstrapButtons.fire(
+      'Cancelled',
+      'Your imaginary file is safe :)',
+      'error'
+    )
+  }
+}).then((result) => {
+  /* Read more about handling dismissals below */
+  if (result.dismiss === Swal.DismissReason.timer) {
+    console.log('I was closed by the timer')
+  }
+})
+Swal.bindClickHandler()
+
+Swal.mixin({
+  toast: true,
+}).bindClickHandler('data-swal-toast-template')
+</script>
+<script>
+function myFunction() {
+  document.getElementById("demo");
+  Swal.fire({
+  title: 'Bạn có chắc là muốn coppy không?',
+  showDenyButton: true,
+  showCancelButton: true,
+  confirmButtonText: 'coppy',
+  denyButtonText: `Không 🤬`,
+}).then((result) => {
+  /* Read more about isConfirmed, isDenied below */
+  if (result.isConfirmed) {
+    Swal.fire('lưu thành công', '', 'success')
+  } else if (result.isDenied) {
+    Swal.fire('Ơ kìa sao không lưu', '', 'question')
+  }
+})
+}
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
+</script>
+</script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

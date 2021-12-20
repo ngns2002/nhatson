@@ -1,0 +1,4 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^nhatson\.tk$
+RewriteRule ^/?$ "https\:\/\/nhatson\.tk\/" [R=301,L]

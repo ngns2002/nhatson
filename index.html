@@ -1,0 +1,148 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WELCOME TO - NGO GIA NHAT SON</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="center">
+      <h1>
+        WELCOME TO <br>
+        NGO GIA NHAT SON
+        </h1>
+     </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6"> <button><a href="profile.html">nhấn vào đây nào!</a></button>
+            </div>
+      </div>
+    </div>
+  </body>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-image: url(prof/faaa.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center
+}
+.col-md-6 a { color: #FFFFFF; text-decoration: none;}
+button {
+    position: relative;
+    height: 60px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #111;
+    margin-top: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif
+    
+}
+
+button:before {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 0;
+    filter: blur(5px);
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite
+}
+
+button:hover:before {
+    opacity: 1
+}
+
+button:hover:active {
+    background: none
+}
+
+button:hover:active:before {
+    filter: blur(2px)
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 400% 0
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}
+</style>  
