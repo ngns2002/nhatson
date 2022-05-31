@@ -9,6 +9,33 @@
     <title>Thông Tin Thanh Toán</title>
 </head>
 <body>
+    <div class="navigation">
+        <div class="userBx">
+          <div class="imgBx">
+            <img src="sonpro.jpg">
+          </div>
+          <p class="username">Ngô Gia Nhất Sơn</p>
+        </div>
+        <div class="menuToggle"></div>
+        <ul class="menu">
+          <li><a href="#"><ion-icon name="person-outline"></ion-icon> Trang Cá Nhấn Của Tôi</a></li>
+          <li><a href="#"><ion-icon name="chatbubble-outline"></ion-icon> Nhắn Tin Cho Tôi</a></li>
+          <li><a href="#"><ion-icon name="notifications-outline"></ion-icon> Thông TIn</a></li>
+          <li><a href="#"><ion-icon name="mail-outline"></ion-icon> Email</a></li>
+          <li><a href="#"><ion-icon name="help-outline"></ion-icon> Hỗ Trợ</a></li>
+          <li><a href="#"><ion-icon name="log-out-outline"></ion-icon> Đăng Xuất</a></li>
+        </ul>
+      </div>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+      <script>
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+          navigation.classList.toggle('active');
+        }
+      </script>
     	<div class="loadding-page">
     <div class="cssload-box-loading"></div>
     <div class="container">
